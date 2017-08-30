@@ -1,5 +1,5 @@
 {
-  "name": "latex-image-helper",
+  "name": "latex-image-paste",
   "main": "./lib/main",
   "version": "0.0.0",
   "description": "When an image is pasted into LaTeX, this package creates a directory including the image and inserts a figure including the image path into the document.",
@@ -7,7 +7,7 @@
     "latex",
     "image",
     "paste",
-    "figure"
+    "figure",
     "clipboard",
     "copy"
   ],
