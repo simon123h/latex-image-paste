@@ -64,7 +64,7 @@ module.exports = MarkdownImageAssistant =
     console.log img_filename
 
     @createDir assets_path, ()=>
-      @writePng assets_dir+'/', img_filename, imgbuffer, ()=>
+      @writePng assets_path+'/', img_filename, imgbuffer, ()=>
         @insertUrl assets_dir + "/#{img_filename}",editor
 
     return false
