@@ -2,7 +2,7 @@
 
 An Atom plugin for LaTeX grammar. Create image file relative to the markdown file and insert a relative url to that file.
 
-Inspired by [markdown-image-helper](https://github.com/bigyuki/markdown-image-helper.
+Inspired by [markdown-image-helper](https://github.com/bigyuki/markdown-image-helper).
 
 ## Usage
 1. Take a screenshot or copy any image to the clipboard.
