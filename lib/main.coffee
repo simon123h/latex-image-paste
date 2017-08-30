@@ -1,7 +1,14 @@
 
 {CompositeDisposable,File,Directory} = require 'atom'
 
-module.exports = LatexImgHelper =
+module.exports =
+
+  config:
+    imgPath:
+      title: 'Image directory name'
+      description: 'The name of the directory that is created, when an image is pasted'
+      type: 'string'
+      default: 'img'
 
 	activate: (state) ->
 		atom.commands.onWillDispatch (e)  =>
@@ -16,6 +23,7 @@ module.exports = LatexImgHelper =
 
 				clipboard = require 'clipboard'
 				img = clipboard.readImage()
+        imgPath = atom.config.get('latex-image-paste.imgPath')
 
 				return if img.isEmpty()
 
@@ -24,7 +32,7 @@ module.exports = LatexImgHelper =
 				imgbuffer = img.toPng()
 
 				thefile = new File(editor.getPath())
-				assetsDirPath = thefile.getParent().getPath()+"/img"
+				assetsDirPath = thefile.getParent().getPath() + imgPath
 
 
 				crypto = require "crypto"
@@ -35,7 +43,7 @@ module.exports = LatexImgHelper =
 
 				@createDirectory assetsDirPath, ()=>
 					@writePng assetsDirPath+'/', filename, imgbuffer, ()=>
-						@insertUrl "img/#{filename}",editor
+						@insertUrl imgPath + "/#{filename}",editor
 
 				return false
 
