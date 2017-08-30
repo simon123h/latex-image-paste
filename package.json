@@ -1,7 +1,7 @@
 {
   "name": "latex-image-paste",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "When an image is pasted into LaTeX, this package creates a directory including the image and inserts a figure including the image path into the document.",
   "keywords": [
     "latex",
