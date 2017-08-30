@@ -1,0 +1,19 @@
+{
+  "name": "latex-image-helper",
+  "main": "./lib/main",
+  "version": "1.0",
+  "description": "When an image is pasted into LaTeX, this package creates a directory including the image and inserts a figure including the image path into the document.",
+  "keywords": [
+    "latex",
+    "image",
+    "paste",
+    "figure"
+    "clipboard",
+    "copy"
+  ],
+  "repository": "https://github.com/simon123h/latex-image-paste",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
