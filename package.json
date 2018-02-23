@@ -11,6 +11,11 @@
     "clipboard",
     "copy"
   ],
+  "activationHooks": [
+    "language-latex:grammar-used",
+    "language-tex:grammar-used",
+    "language-latexsimple:grammar-used"
+  ],
   "repository": "https://github.com/simon123h/latex-image-paste",
   "license": "MIT",
   "engines": {
