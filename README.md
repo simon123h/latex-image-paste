@@ -5,7 +5,7 @@ An Atom plugin for LaTeX grammar. Create image file relative to the markdown fil
 
 Inspired by [markdown-image-helper](https://github.com/bigyuki/markdown-image-helper).
 
-![Demo](https://raw.githubusercontent.com/cslanziano/latex-image-paste/doc/gif.gif)
+![Demo](https://raw.githubusercontent.com/cslanziano/latex-image-paste/master/doc/gif.gif)
 
 ## Usage
 1. Take a screenshot or copy any image to the clipboard.
