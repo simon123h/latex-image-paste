@@ -1,5 +1,4 @@
 # LaTeX Image Helper
-That is a fork from: [LaTeX Image Helper](https://github.com/simon123h/latex-image-paste)
 
 An Atom plugin for LaTeX grammar. Create image file relative to the markdown file and insert a relative url to that file.
 
