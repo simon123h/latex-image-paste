@@ -14,7 +14,8 @@
   "activationHooks": [
     "language-latex:grammar-used",
     "language-tex:grammar-used",
-    "language-latexsimple:grammar-used"
+    "language-latexsimple:grammar-used",
+    "language-latex2e:grammar-used"
   ],
   "repository": "https://github.com/simon123h/latex-image-paste",
   "license": "MIT",
