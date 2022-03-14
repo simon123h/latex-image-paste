@@ -12,6 +12,7 @@
     "copy"
   ],
   "activationHooks": [
+    "text.tex.latex:root-scope-used",
     "language-latex:grammar-used",
     "language-tex:grammar-used",
     "language-latexsimple:grammar-used",
